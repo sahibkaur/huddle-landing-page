@@ -50,7 +50,9 @@ button{
 }
 
 .illustration-mockups{
+
 	width:100%;
+	max-width:800px;
 }
 .heading{
 	font-family: 'Poppins', sans-serif;
@@ -64,7 +66,6 @@ p{
 	text-align: center;
 }
 button.get-started{
-
 	background-color: #fF52BF;
 	color: white;
 	font-weight: 700;
@@ -81,21 +82,24 @@ button, .heading{
 	border-radius: 10px;
 	height:auto;
 	width: 80%;
+	max-width:500px;
 	margin-bottom: 50px;
 	box-shadow: 0 0 10px 0.5px #dcdde1; 
+	background-color: white;
 }
 .member-box img{
 	width:100%;
+	max-width: 300px;
 }
 .member-box .heading{
-font-size:18px;
-font-weight: 700;
+	font-size:18px;
+	font-weight: 700;
 }
 .member-box p{
 	color: #718093;
 	font-size:16px;
-
 }
+
 .box-content{
 	margin: 20px;
 }
@@ -103,7 +107,57 @@ font-weight: 700;
 	background-color: #00252E;
 	padding: 10px;
 	color:white;
+	margin-top: -100px;
+	padding-top: 100px;
+	font-size: 15px;
 }
-tr{
-	margin-top: 
+table td{
+	padding-top: 30px;
+	padding-left: 20px;
+	vertical-align: top; 
+}
+td .location{
+	padding-top: 5px;
+}
+.white-logo, ul{
+	padding-left: 20px;
+}
+.white-logo img{
+	width:50%;
+	max-width: 300px;
+}
+ul{
+	margin-top: 70px;
+	list-style-type: none;
+}
+ul li{
+	margin-top:20px;
+
+}
+ul li a{
+	color:white;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.social-media{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+}
+.social-media i{
+	margin:auto;
+	color:white;
+}
+.social-media .circle{
+	height:30px;
+	width: 30px;
+	display: flex;
+	border-radius: 50%;
+	border:2px solid white;
+	margin-left: 20px;
+}
+.footer p{
+	font-size: 10px;
+	margin-bottom: 20px;
 }
