@@ -99,7 +99,9 @@ button, .heading{
 	color: #718093;
 	font-size:16px;
 }
-
+.last-box{
+	margin-top:70px;
+}
 .box-content{
 	margin: 20px;
 }
