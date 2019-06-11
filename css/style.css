@@ -31,8 +31,10 @@ section{
 }
 button{
 	border-radius: 50px;
-	padding-left: 1.5rem;
-	padding-right: 1.5rem;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: white;
 	border:none;
 	margin-top:0;
@@ -50,13 +52,12 @@ button{
 }
 
 .illustration-mockups{
-
 	width:100%;
 	max-width:800px;
 }
 .heading{
 	font-family: 'Poppins', sans-serif;
-	margin-top: 50px;
+	margin-top: 30px;
 
 }
 .heading, p, .get-started{
@@ -64,11 +65,11 @@ button{
 }
 p{
 	text-align: center;
+	font-size:16px;
 }
 button.get-started{
 	background-color: #fF52BF;
 	color: white;
-	font-weight: 700;
 	padding-top: 20px;
 	padding-bottom:20px;
 	padding-left: 70px;
@@ -82,7 +83,6 @@ button, .heading{
 	border-radius: 10px;
 	height:auto;
 	width: 80%;
-	max-width:500px;
 	margin-bottom: 50px;
 	box-shadow: 0 0 10px 0.5px #dcdde1; 
 	background-color: white;
@@ -90,6 +90,7 @@ button, .heading{
 .member-box img{
 	width:100%;
 	max-width: 300px;
+	max-height:300px;
 }
 .member-box .heading{
 	font-size:18px;
@@ -97,7 +98,7 @@ button, .heading{
 }
 .member-box p{
 	color: #718093;
-	font-size:16px;
+	
 }
 .last-box{
 	margin-top:70px;
@@ -133,7 +134,7 @@ ul{
 	list-style-type: none;
 }
 ul li{
-	margin-top:20px;
+	margin-top:30px;
 
 }
 ul li a{
@@ -162,4 +163,68 @@ ul li a{
 .footer p{
 	font-size: 10px;
 	margin-bottom: 20px;
+	margin-top: 20px;
+}
+button:hover{
+	cursor: pointer;
+}
+button:focus{
+	outline: none;
+}
+@media screen and (min-width: 800px){
+	.first-section .content{
+		flex-direction: row;
+	}
+	.illustration-mockups{
+		width:50%;
+		max-width:700px;
+	}
+	.first-section .text{
+		margin-right:100px;
+	}
+	.text{
+		width: 50%;
+	}
+	.text, p{
+		text-align: left;
+	}
+	header{
+		padding-left: 50px;
+		padding-right: 30px;
+	}
+	.first-section .content{
+		padding: 50px;
+	}
+	.box-content{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.reverse {
+		flex-direction: row;
+	}
+	.last-box{
+		width:50%;
+	}
+	.row{
+		display: flex;
+		justify-content: space-between;
+	}
+	ul{
+		margin-top: 0;
+		margin-right: 0;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		height: 150px;
+	}
+	table, ul, .social-media{
+		width: 30%;
+	}
+	.social-media{
+		justify-content: flex-start;
+	}
+	.footer p{
+		text-align: right;
+	}
 }
