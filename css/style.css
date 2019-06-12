@@ -44,6 +44,7 @@ section{
 	white-space: nowrap; 
 	text-decoration: none;
 	display: inline-block;
+	color:#000;
 }
 .content{
 	margin-top: 50px;
@@ -108,7 +109,7 @@ p{
 .box-content{
 	margin: 20px;
 }
-.last-section{
+footer{
 	background-color: #00252E;
 	padding: 10px;
 	color:white;
@@ -162,7 +163,7 @@ ul li a{
 	border:2px solid white;
 	margin-left: 20px;
 }
-.footer p{
+.copyright p{
 	font-size: 10px;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -226,7 +227,7 @@ ul li a{
 	.social-media{
 		justify-content: flex-start;
 	}
-	.footer p{
+	.copyright p{
 		text-align: right;
 	}
 }
