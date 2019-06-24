@@ -154,14 +154,15 @@ ul li a{
 .social-media i{
 	margin:auto;
 	color:white;
-}
-.social-media .circle{
 	height:30px;
 	width: 30px;
 	display: flex;
 	border-radius: 50%;
 	border:2px solid white;
 	margin-left: 20px;
+}
+.social-media i::before{
+	margin: auto;
 }
 .copyright p{
 	font-size: 10px;
