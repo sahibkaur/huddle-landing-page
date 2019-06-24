@@ -171,9 +171,16 @@ ul li a{
 .button:hover{
 	cursor: pointer;
 }
+.try-button:hover{
+	background-color:#f3fafc;
+}
+.get-started:hover{
+	background-color: #f555ba;
+}
 .button:focus{
 	outline: none;
 }
+
 @media screen and (min-width: 800px){
 	.button{
 		padding-top: 10px;
