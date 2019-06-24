@@ -181,7 +181,10 @@ ul li a{
 .button:focus{
 	outline: none;
 }
-
+i:hover{
+	border-color: #73868b;
+	color: #73868b;
+}
 @media screen and (min-width: 800px){
 	.button{
 		padding-top: 10px;
